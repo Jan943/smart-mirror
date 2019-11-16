@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>mirror</title>
+</head>
+
+//set background to black
+<body>
+
+<script>
+
+//send GET request to server to receive detected name
+//display this name in "detectedName" field and setup timeout for next get request
+
+
+//implement clock and date display
+//every 1s or 500ms get time and write it down to "date" and "clock" fields
+
+</script>
+
+<style>
+.dateStyle {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-size: 40px;
+  color: #675F5F;
+  font-family: 'Roboto', sans-serif;
+}
+
+.clockStyle {
+  position: absolute;
+  top: 56px;
+  left: 16px;
+  font-size: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nameStyle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  //font-variant: small-caps;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+</style>
+
+<div id="date" class="dateStyle"></div>
+<div id="clock" class="clockStyle"></div>
+<div id="detectedName" class="nameStyle"></div>
+
+</body>
+
+</html>
